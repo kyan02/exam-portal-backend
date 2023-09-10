@@ -3,7 +3,8 @@ flyway.user: root
 flyway.password: root
 flyway.locations: filesystem:migrations
 flyway.enabled: true
-
+server:
+  port: 8081
 spring:
   application:
     name: Exam
