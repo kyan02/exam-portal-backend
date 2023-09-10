@@ -14,7 +14,6 @@ import java.util.Date;
 @Setter
 @Entity
 public class AttemptDetail {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
